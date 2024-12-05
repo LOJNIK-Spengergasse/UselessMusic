@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="220.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label text="Impressum" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <center>
+            <VBox prefHeight="76.0" prefWidth="274.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Useless Music Player v.1.0" />
+                  <Label text="Made by Simon-Nicolas Lojnik during June of 2023 " />
+                  <Label text="as a mandatory project for HTL Spengergasse." />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <BorderPane.margin>
+                  <Insets top="5.0" />
+               </BorderPane.margin>
+            </VBox>
+         </center>
+         <left>
+            <Pane prefHeight="76.0" prefWidth="17.0" BorderPane.alignment="CENTER" />
+         </left>
+         <bottom>
+            <ImageView fitHeight="80.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="20.0" />
+               </BorderPane.margin>
+               <image>
+                  <Image url="@pictures/Useless-Music.png" />
+               </image>
+            </ImageView>
+         </bottom>
+      </BorderPane>
+   </center>
+</BorderPane>
